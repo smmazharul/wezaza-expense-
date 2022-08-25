@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Rubel from '../Rubel/Rubel';
+import { dataRef } from '../utilities/Firebase';
 
 const Home = () => {
+   
     return (
         <div>
-            <h1>this is home</h1>
+            <Rubel></Rubel>
         </div>
     );
 };

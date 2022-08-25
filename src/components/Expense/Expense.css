@@ -1,7 +1,7 @@
 .expense-container{
-   display: grid;
-   grid-template-columns: 2fr 4fr;
-   gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 }
 
 form{
@@ -24,8 +24,4 @@ table {
  
  tr:nth-child(even) {background-color: #f2f2f2;}
 
- @media only screen and (max-width: 600px) {
-   .expense-container {
-     grid-template-columns: 1fr;
-   }
- }
+ @import url("https://cdn.jsdelivr.net/npm/bullframe.css");
