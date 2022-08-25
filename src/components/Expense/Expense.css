@@ -12,6 +12,9 @@ form{
    padding: 5px;
    background: rgb(1, 7, 33);
 }
+.catagory{
+  font-size: 12px;
+}
 table {
    border-collapse: collapse;
    width: 100%;

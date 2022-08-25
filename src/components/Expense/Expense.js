@@ -94,6 +94,7 @@ const Expense = () => {
           value={expenseData.firstName}
         >
            <option value=""> --Please choose a Name-- </option>
+          <option value="Rubel">Wada</option>
           <option value="Rubel">Rubel</option>
           <option value="Akib">Akib</option>
           <option value="Shihab">Shihab</option>
@@ -120,13 +121,14 @@ const Expense = () => {
           value={expenseData.catagory}
           
         >
-          <option value="">Please choose a Catagory</option>
-          <option value="Head Office">Head Office </option>
-          <option value="Field Office">Field Office</option>
-          <option value="Livestock">Livestock Feed</option>
-          <option value="Mushroom Project">Mushroom Project</option>
-          <option value="Horticulture Project">Horticulture Project</option>
-          <option value="Transportation">Transportation </option>
+          <option className="catagory" value="Head Office">Head Office </option>
+          <option className="catagory" value="Field Office">Field Office</option>
+          <option className="catagory" value="Livestock Department">Livestock Department</option>
+          <option className="catagory" value="">Please choose a Catagory</option>
+          <option className="catagory" value="Mushroom Department">Mushroom Department</option>
+          <option className="catagory" value="Horticulture Department">Horticulture Department</option>
+          <option className="catagory" value="Transportation Department">Transportation Department</option>
+          <option className="catagory" value="Consultant Department">Consultant Department</option>
         </select>
         <input
           type="text"
