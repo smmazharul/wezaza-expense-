@@ -121,10 +121,10 @@ const Expense = () => {
           value={expenseData.catagory}
           
         >
+          <option className="catagory" value="">Please choose a Catagory</option>
           <option className="catagory" value="Head Office">Head Office </option>
           <option className="catagory" value="Field Office">Field Office</option>
           <option className="catagory" value="Livestock Department">Livestock Department</option>
-          <option className="catagory" value="">Please choose a Catagory</option>
           <option className="catagory" value="Mushroom Department">Mushroom Department</option>
           <option className="catagory" value="Horticulture Department">Horticulture Department</option>
           <option className="catagory" value="Transportation Department">Transportation Department</option>
